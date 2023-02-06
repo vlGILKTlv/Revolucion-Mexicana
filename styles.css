@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap');
+
+*{
+    font-family: sans-serif;font-family: 'Ubuntu', sans-serif;
+    color: #535252;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f8f0df;
+}
+
+main{
+    background-color: #FEFBF3;
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+}
+
+/* HEADER E IMAGEN */
+
+#img-div{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    flex-direction: column;
+    background-color: #f8f0df86;
+    padding: 40px;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+#image{
+    width: 100%;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+
+
+/* LINEA DEL TIEMPO TEXTO  */
+#time-line{
+    width: 50%;
+    margin: 0 auto;
+
+}
+
+b{
+    font-weight: 501;
+}
+
+#sub-title{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.texto{
+    padding: 5px 7px 13px 7px;
+    letter-spacing: .55px;
+    line-height: 27px;
+    border-bottom: 1px solid black ;
+}
+
+
+
+
+/* FOOTER */
+
+footer p {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+footer a {
+    text-decoration: unset;
+    color: gray;
+}
+
+footer a:visited {
+    color: black;
+    
+}
